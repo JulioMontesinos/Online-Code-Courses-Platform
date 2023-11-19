@@ -1,0 +1,150 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.rowsButton, .headerButton{ /* For the buttons in the table (both in the header and each row) */
+	margin:2px;
+	cursor:pointer;
+}
+
+
+.h1{
+	position: absolute;
+	top: 50px;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 10px 5px;
+	font-size: 25px;
+	width: 800px;
+	left: 50%;
+	margin-left: -400px;
+	background: #f7f7f7;
+}
+
+.h1_2{
+	position: absolute;
+	top: 50px;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 10px 5px;
+	font-size: 25px;
+	left: 5px;
+	right: 5px;
+	background: #f7f7f7;
+}
+
+.h1_2 button{
+	padding: 0 3px 3px 3px;
+	margin: -10px 0;
+	font-size: 30px;
+	width: 42px;
+	background: #f7f7f7;
+	border: 0px;
+	border-radius: 20px;
+}
+
+.h1_2 button:hover{
+	background: #dedede;
+	cursor: pointer;
+}
+
+.main{
+	position: absolute;
+	top: 120px;
+	bottom: 0px;
+	padding: 10px 5px;
+	font-size: 25px;
+	width: 800px;
+	left: 50%;
+	margin-left: -400px;
+	background: #f7f7f7;
+}
+
+.main2{
+	position: absolute;
+	top: 120px;
+	bottom: 0px;
+	padding: 10px 5px;
+	font-size: 25px;
+	right: 5px;
+	left: 205px;
+	background: #f7f7f7;
+	overflow: auto;
+}
+
+/** Header **/
+header{
+    position: absolute;
+    background: #000000;
+	padding: 4px 2px 0 2px;
+    top: 0px;
+    left: 0px;
+    height: 58px;
+    right: 0px;
+	overflow: auto;
+}
+
+#headnav{
+	float: right;
+	margin: 0 2px 0 0;
+}
+
+#headnav button{
+	background: #dedede;
+	color: #505050;
+	border: 0px;
+	font-size: 20px;
+	width: 100px;
+	height: 50px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+#headnav button:hover{
+	background: #cecece;
+	color: #ffffff;
+	border-top: 2px solid #505050;
+	border-bottom: 2px solid #505050;
+}
+
+#nav {
+	position: absolute;
+	top: 120px;
+	bottom: 0px;
+	left: 5px;
+	width: 200px;
+	background-color: #f7f7f7;
+	border-right: 1px solid #dddddd;
+	overflow: auto;
+}
+
+/**  **/
+a{color: #0000ff; cursor: pointer; text-decoration: none;}
+a:hover{color: #0000aa; text-decoration: underline overline;}
+
+/** HTML and BODY to maximum extension **/
+html, body{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+
+    color: #000000;
+	background: #fafafa;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/**Default properties for all elements on the website**/
+*{
+    box-sizing: border-box;
+}

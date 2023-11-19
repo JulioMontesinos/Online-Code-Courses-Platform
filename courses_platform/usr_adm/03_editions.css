@@ -1,0 +1,75 @@
+#div_form_editions{
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	width: 300px;
+	left: 50%;
+	margin-left: -150px; /*Half of width*/
+	position: relative;
+}
+
+#div_form_editions h2{
+	font-size: 20px;
+	text-align: center;
+	margin: 10px;
+}
+
+
+#div_form_editions input{
+	width: 275px;
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#div_form_editions select{
+	width: 275px;
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#div_form_editions button.button_close_modal{
+	width: 25px;
+	height: 25px;
+	padding: 0px;
+	float: right;
+	color: #ffff00;
+	background: #900000;
+}
+
+#div_form_editions button.button_close_modal:hover{
+	background: #aa0000;
+	cursor: pointer;
+}
+
+#div_form_editions button{
+	width: 275px;
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+	color:#ffffff;
+	background: #0000ff;
+	border: 0px;
+	border-radius: 3px;
+}
+
+#div_form_editions button:hover{
+	background: #0000dd;
+	cursor: pointer;
+}
+
+#div_form_editions span {
+	font-size: 14px;
+	margin: 0 10px;
+	display: inline;
+}
+
+#edicion_id, #edicion_rol, #edicion_email{
+	background:#DDDDDD;
+}
+
+#AddContainer{
+	display:none;
+}
+
+

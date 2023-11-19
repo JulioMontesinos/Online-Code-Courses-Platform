@@ -1,0 +1,39 @@
+#sideMenu{
+	padding-left: 5px;
+	border-top: 1px solid #dddddd;
+}
+
+#sideMenu ul{
+	padding-left: 0px;
+}
+
+#sideMenu li{
+	font-size: 18px;
+	border-bottom: 1px solid #dddddd;
+	cursor: pointer;
+}
+
+#sideMenu li:hover{
+	background: #eeeeee;
+}
+
+#sideMenu ul li{
+	margin-left: 10px;
+	font-size: 16px;
+}
+
+#menuCourse, #menuCourseStudent{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 30px;
+}
+
+#contentCourse, #contentCourseStudent{
+	position: absolute;
+	top: 35px;
+	left: 0px;
+	right: 0px;
+	bottom: 5px;
+}

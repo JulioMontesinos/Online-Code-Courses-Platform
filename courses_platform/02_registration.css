@@ -1,0 +1,45 @@
+#div_form_Registration{
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	width: 300px;
+	left: 50%;
+	margin-left: -150px; /*La mitad de width*/
+	position: relative;
+}
+
+#div_form_Registration h2{
+	font-size: 20px;
+	text-align: center;
+	margin: 10px;
+}
+
+#div_form_Registration input{
+	width: 275px;
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#div_form_Registration button{
+	width: 275px;
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+	color:#ffffff;
+	background: #0000ff;
+	border: 0px;
+	border-radius: 3px;
+}
+
+#div_form_Registration button:hover{
+	background: #0000dd;
+	cursor: pointer;
+}
+
+#div_form_Registration span{
+	font-size: 14px;
+	margin: 0 10px;
+	display: inline;
+}
+
+

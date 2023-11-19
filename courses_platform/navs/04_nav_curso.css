@@ -1,0 +1,29 @@
+.button_menu_teacher{
+	margin: 2px 3px;
+	float: right;
+	width: 90px;
+	background: #cecece;
+	cursor: pointer;
+	border: 1px solid #bbbbbb;
+	border-radius: 2px;
+	font-size: 14px;
+}
+
+.button_menu_teacher:hover{
+	background: #bcbcbc;
+}
+
+.button_menu_teacher_resp{
+	margin: 2px 3px;
+	float: right;
+	width: 90px;
+	background: #ffffaa;
+	cursor: pointer;
+	border: 1px solid #bbbbbb;
+	border-radius: 2px;
+	font-size: 14px;
+}
+
+.button_menu_teacher_resp:hover{
+	background: #eeee80;
+}

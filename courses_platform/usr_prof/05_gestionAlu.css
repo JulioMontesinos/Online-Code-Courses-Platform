@@ -1,0 +1,22 @@
+#Title_students{
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+#div_add_students button.button_close_modal{
+	width: 25px;
+	height: 25px;
+	padding: 0px;
+	float: right;
+	color: #ffff00;
+	background: #900000;
+}
+
+#div_add_students button.button_close_modal:hover{
+	background: #aa0000;
+	cursor: pointer;
+}
+
+#AddContainer{
+	display:none;
+}

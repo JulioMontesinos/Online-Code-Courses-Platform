@@ -1,0 +1,49 @@
+#div_form_login{
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	width: 300px;
+	left: 50%;
+	margin-left: -150px; /*Half of the width*/
+	position: relative;
+}
+
+#div_form_login h2{
+	font-size: 20px;
+	text-align: center;
+	margin: 10px;
+}
+
+#div_form_login input{
+	width: 275px;
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+}
+
+#div_form_login button{
+	width: 275px;
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+	color:#ffffff;
+	background: #0000ff;
+	border: 0px;
+	border-radius: 3px;
+}
+
+#div_form_login button:hover{
+	background: #0000dd;
+	cursor: pointer;
+}
+
+#div_form_login span{
+	font-size: 14px;
+	color: red;
+	margin: 0 10px;
+	display: inline;
+}
+
+
+
+
+
