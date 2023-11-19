@@ -3,14 +3,14 @@
 ## Folder Structure
 
 - **`src/`**: Contains all the source code of the application.
-- **`src/imgs`**: Contains all images of the application.
-- **`src/libs`**: Contiene las librerías creadas para la conexión a la bbdd, para creación de tablas, utilización del editor de código online y para la funcionalidad de la app.
-- **`src/navs`**: Contiene todos los ficheros destinados a la creación de los navs
-- **`src/sessions`**: Contiene el fichero que comprueba si existe una sesión de rol del usuario para permitir al entorno del usuario registrado
-- **`src/usr_adm`**: Contiene todos los ficheros en los que únicamente tiene acceso el administrador
-- **`src/usr_prof`**: Contiene todos los ficheros en los que tiene acceso el administrador y los profesores
-- **`src/usr_alu`**: Contiene todos los ficheros en los que tiene acceso el administrador, los profesores y los alumnos (Todos los usuarios registrados)
-- **`src`**: `01_login_X.php` and `02_registration_X.php`where X could be _m, _v or _c are visible for all users including the unregistered users.
+- **`src/imgs/`**: Holds all the images used in the application.
+- **`src/libs/`**: Houses libraries created for database connection, table creation, code editor usage, and app functionality.
+- **`src/navs/`**: Stores files dedicated to the creation of navigation elements.
+- **`src/sessions/`**: Includes the file responsible for checking if a user role session exists to allow access to the registered user environment.
+- **`src/usr_adm/`**: Contains files accessible only to the administrator.
+- **`src/usr_prof/`**: Encompasses files accessible to both the administrator and professors.
+- **`src/usr_alu/`**: Encompasses files accessible to the administrator, professors, and students (all registered users).
+- **`src`**: `01_login_X.php` and `02_registration_X.php`, where X could be _m, _v, or _c, are visible to all users, including unregistered users.
 
 ## Naming Conventions
 
