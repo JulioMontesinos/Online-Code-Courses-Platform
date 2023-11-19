@@ -11,6 +11,7 @@
 - **`src/usr_prof/`**: Encompasses files accessible to both the administrator and professors.
 - **`src/usr_alu/`**: Encompasses files accessible to the administrator, professors, and students (all registered users).
 - **`src`**: `01_login_X.php` and `02_registration_X.php`, where X could be _m, _v, or _c, are visible to all users, including unregistered users.
+- **`db/`**: Contains the SQL file and user login credentials.
 
 ## Naming Conventions
 
