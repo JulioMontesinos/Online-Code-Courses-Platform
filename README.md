@@ -43,7 +43,11 @@ To get started with this project, follow these steps:
 
 ### Prerequisites
 
-Make sure you have the following components installed:
+Ensure you have the following components installed:
+
+- [MySQL](https://www.mysql.com/): Make sure you have a recent version of MySQL installed on your system. You can use XAMPP, but it's optional.
+
+If you choose to use XAMPP:
 
 - [XAMPP](https://www.apachefriends.org/index.html): We use XAMPP as the development environment, which includes Apache, MySQL, PHP, and more.
 - [PHP](https://www.php.net/): Ensure you have a recent version of PHP installed on your system.
